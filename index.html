@@ -10,25 +10,89 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/bootstrapHomework.css">
+
+  <!-- Link to Montserrat Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <div class="container-lg text-center">
-    <div class="row row-gap-3">
-      <div class="col-lg-3 d-none d-lg-block purple-col py-3">
-        Column
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg nav-bar-color sticky-top mb-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html">alexMompremier</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active nav-highlight" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/gridChallenges/grid-challenge.html">Grid Challenge</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
-      <div class="col-lg-8 col-sm-12 red-col py-3">
-        Column
+    </div>
+  </nav>
+  <div class="container-lg mb-3 px-3">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 ">
+        <h1> Homer, Bart, and Friends </h1>
+        <h2>Dialogue</h2>
+        <p>
+          Homer: Got any of that beer that has candy floating in it? You know, Skittlebrau? Apu: Such a beer does not
+          exist, sir. I think you must have dreamed it. Homer: Oh. Well, then just give me a six-pack and a couple of
+          bags of Skittles.
+          Homer: What's the point of going out? We're just going to wind up back here anyway.
+          Bart: Aren't we forgeting the true meaning of Christmas? You know, the birth of Santa.
+          [Marge gets her first unemployment check] Marge: Three hundred dollars for doing nothing. I feel like such a
+          crook. George Bush: Don't worry, it gets easier every week.
+
+        </p>
+
       </div>
-      <div class="col-lg-1  green-col col-sm-12 py-3">
-        Column
-      </div> <!-- close column -->
+      <div class="col-lg-6 col-md-12 ">
+        <h1> Mr. Burns, Chief Wiggums, and Friends </h1>
+        <h2> Dialogue </h2>
+        <p>
+          Mr. Burns: [to Homer] Young man, I'm making you my executive vice president. Smithers: Sir, I believe that
+          position was informally promised to me. Mr. Burns: Oh, Smithers... I would have said anything to get your stem
+          cells.
+          Chief Wiggum: Where on my badge does it say anything about protecting people? Lou: Uh, second word, chief.
+          Chief Wiggum: Well, boys, it looks like we solved the mystery of the missing ham. Marge: You guys are the
+          world's worst cops! Chief Wiggum: No, now that I'm off-duty, I'm the world's worst soccer coach.
+          Krustyburger manager: We need more secret sauce. Put this mayonnaise in the sun.
+
+        </p>
+
+      </div>
     </div> <!-- close row -->
   </div> <!-- close container -->
 
-  <a href="/gridChallenges/grid-challenge.html"> Grid Challenge</a><br>
+  <footer class="footer-custom p-3 border-top border-2">
+    <!-- Used p-3 rather than py-3 and px-3 to both x&y to 3! Please let me know if you would prefer me to stick to the video suggestions! -->
+    <span> &copy; alexMompremier 2024 | Last Update on <time datetime="2024-01-23">January 23, 2024</time> at
+      <time datetime="20:00">10:00 PM </time>
+    </span>
 
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
