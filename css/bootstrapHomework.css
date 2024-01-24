@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
+
+/* Bootstrap Tutorial CSS */
 .purple-col {
 	background-color: purple;
 }
@@ -10,3 +12,6 @@
 .green-col {
 	background-color: green;
 }
+
+/* Grid Challenge CSS */
+
