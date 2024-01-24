@@ -1,7 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-
-/* Bootstrap Tutorial CSS */
 .purple-col {
 	background-color: purple;
 }
@@ -13,15 +11,98 @@
 	background-color: green;
 }
 
-/* Grid Challenge CSS */
-.lightblue-col {
-	background-color: lightblue;
+html body {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	background-color: rgba(150, 150, 150, 0.1);
+}
 
+.nav-bar-color {
+	background: rgb(255, 213, 243);
+	background: linear-gradient(
+		90deg,
+		rgba(255, 213, 243, 1) 0%,
+		rgba(124, 216, 245, 1) 50%,
+		rgba(124, 245, 245, 1) 100%
+	);
 }
-.aqua-col {
-	background-color: aqua;
+
+.nav-link {
+	color: black;
+	font-weight: 400;
 }
+
+.nav-link:hover {
+	color: white !important;
+}
+
+.navbar-brand {
+	color: black;
+	font-weight: 900;
+}
+
+.nav-highlight {
+	color: darkslategray !important;
+	font-weight: 900;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+
+h2 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+p {
+	font-weight: lighter;
+}
+/* footer */
+.footer-custom {
+	text-align: center;
+}
+
+/* Grid Challenge CSS */
+
+/* Row 1 */
+.red-col {
+	background-color: red;
+}
+.orange-col {
+	background-color: orange;
+}
+.gold-col {
+	background-color: gold;
+}
+
+/* Row 2 */
+.lightgreen-col {
+	background-color: greenyellow;
+}
+
+.midgreen-col {
+	background-color: rgb(84, 206, 84);
+}
+
+.darkgreen-col {
+	background-color: green;
+}
+
+/* Row 3 */
+
 .blue-col {
 	background-color: blue;
+	color: white;
+}
 
+.indigo-col {
+	background-color: indigo;
+	color: white;
+}
+
+.violet-col {
+	background-color: purple;
+	color: white;
 }
